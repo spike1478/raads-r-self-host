@@ -164,6 +164,22 @@ export default function Results({
           Retake
         </button>
       </div>
+
+      {/* Citation */}
+      <p className="text-xs text-muted-light/60 dark:text-muted-dark/60 max-w-lg text-center leading-relaxed">
+        Based on Ritvo, R.A., Ritvo, E.R., Guthrie, D. et al. (2011).
+        The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R).{' '}
+        <em>Journal of Autism and Developmental Disorders</em>, 41(8), 1076–1085.
+        Published under{' '}
+        <a
+          href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3134766/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-muted-light dark:hover:text-muted-dark"
+        >
+          CC BY-NC
+        </a>.
+      </p>
     </div>
   );
 }

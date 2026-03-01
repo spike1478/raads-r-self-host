@@ -53,6 +53,14 @@ All data stays in your browser. No cookies, no analytics, no external requests b
 
 Two independent scoring engines (primary formula and lookup table) are cross-validated against each other in the test suite. Golden test vectors verify correct totals for all uniform response patterns (189, 51, 143, 97). Dataset structural tests confirm all 80 items are accounted for with no overlaps across domains.
 
+## Attribution
+
+The RAADS-R questionnaire items and scoring methodology are from:
+
+> Ritvo, R.A., Ritvo, E.R., Guthrie, D. et al. (2011). The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R): A Scale to Assist the Diagnosis of Autism Spectrum Disorder in Adults: An International Validation Study. *Journal of Autism and Developmental Disorders*, 41(8), 1076–1085. [PMC3134766](https://pmc.ncbi.nlm.nih.gov/articles/PMC3134766/)
+
+The original paper is published under a [Creative Commons Attribution-NonCommercial licence](https://creativecommons.org/licenses/by-nc/4.0/).
+
 ## Licence
 
-MIT
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). See [LICENCE](LICENCE) for details.

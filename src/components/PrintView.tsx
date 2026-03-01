@@ -82,6 +82,14 @@ export default function PrintView({ results, responses, dataset, onBack }: Print
         </tbody>
       </table>
 
+      {/* Citation */}
+      <p className="text-xs text-gray-500 mb-8">
+        Based on Ritvo, R.A., Ritvo, E.R., Guthrie, D. et al. (2011).
+        The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R).{' '}
+        <em>Journal of Autism and Developmental Disorders</em>, 41(8), 1076–1085.
+        Published under CC BY-NC.
+      </p>
+
       {/* Full response table */}
       <h2 className="text-xl font-bold mb-3">Full Responses</h2>
       <table className="w-full border-collapse text-sm">
